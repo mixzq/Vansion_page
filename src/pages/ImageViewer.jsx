@@ -41,7 +41,6 @@ const SliderStyle = styled.div`
       text-align: center;
       width: 2.5vh;
       height: 2.5vh;
-      /* background-color: #ffffff; */
 
       text-decoration: none;
       z-index: 5;

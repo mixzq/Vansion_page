@@ -115,7 +115,7 @@ const Container = styled.div`
             text-decoration: none;
             padding: 0.2vw 0.4vw;
             border: none;
-            /* border-bottom: 6px solid #414141; */
+
             background-color: transparent;
           }
           button:hover {

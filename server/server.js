@@ -7,7 +7,7 @@ const app = express();
 const port = 3000;
 
 app.use(cors());
-app.use(express.static(path.join(__dirname, "public"))); // 提供静态文件服务
+app.use(express.static(path.join(__dirname, "public")));
 
 app.get("/api/images", (req, res) => {
   const imageFolder = path.join(__dirname, "public/images");
